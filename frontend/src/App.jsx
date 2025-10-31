@@ -9,10 +9,10 @@ function App() {
       <Productcard
         name="Cool Headphones"
         category="Electronics"
-        image="https://via.placeholder.com/150"
+        // image="https://via.placeholder.com/150"
         price={99.99}
         discount={10}
-        rating={4}
+        rating={4.5}
 />
     </>
   )
