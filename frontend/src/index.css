@@ -13,7 +13,7 @@
 }
 
 .product-card:hover {
-    transform: translateY(-15px);  /* lift on hover */
+    transform: translateY(-5px);  /* lift on hover */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -32,7 +32,7 @@
 
 .buttons-productcard {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     margin-top: auto;  /* push buttons to the bottom */
 }
 
@@ -41,14 +41,18 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    height: 50px;
+    width : 150px;
+    font-size: 17px;
 }
 
 .view-product {
     background-color: #3498db;
     color: white;
+    
 }
 
 .add-to-cart {
     background-color: #2ecc71;
-    color: white;
+    /* color: white; */
 }
