@@ -22,7 +22,7 @@ npm run dev
 In another Terminal 
 ```bash
 cd backend
-npm init -y
+npm install
 npm start
 ```
 
